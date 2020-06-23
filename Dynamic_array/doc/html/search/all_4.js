@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['front',['front',['../classDynamicArray.html#af28c058494521bd61e5f3f522579a695',1,'DynamicArray']]]
+  ['front',['front',['../classDynamicArray.html#a0b41c9d3210dc42f156ef7d73920bad8',1,'DynamicArray']]]
 ];

@@ -55,19 +55,29 @@ class DynamicArray
 
     /**
      *@brief This function will return the last element of the DynamicArray
+     *       and can be also used to set the last element.
      */
-    T back();
+    T& back();
 
     /**
      *@brief This function will return the first element of the DynamicArray
+     *       and can be also used to set the first element.
      */
-    T front();
+    T& front();
 
     /**
-     *@brief This function will return the element stored at given index.
-     * @param index Index where we need to get the element from.
+     *@brief This function will return the element stored at given index and
+     *       can be also used to set the value at given index.
+     * @param index Index where we need to access the element.
      */
-    T at(int index);
+    T& at(int index);
+
+    /**
+     * @brief This is another way to access and modify the value at given 
+     *        index. This is same as at() function.
+     * @param index Index where we need to access the element.
+     */
+    T& operator[](int index);
 
     /**
      *@brief This function will remove the element stored at the given index.

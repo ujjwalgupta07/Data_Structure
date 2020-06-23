@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['remove',['remove',['../classDynamicArray.html#a95d82da9cea36ba16705013364d93aa6',1,'DynamicArray']]],
-  ['removeat',['removeAt',['../classDynamicArray.html#a43173138592483be0f7d69d0806a670b',1,'DynamicArray']]]
+  ['pop',['pop',['../classDynamicArray.html#a5e8662ba7b6f1270a1b37828fb9108d3',1,'DynamicArray']]],
+  ['push_5fback',['push_back',['../classDynamicArray.html#a8405207fbc20fc8ec245b62253e02f8a',1,'DynamicArray']]]
 ];

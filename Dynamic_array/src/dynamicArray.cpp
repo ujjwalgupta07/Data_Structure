@@ -58,23 +58,29 @@ T DynamicArray<T>::pop()
 }
 
 template <class T>
-T DynamicArray<T>::back()
+T& DynamicArray<T>::back()
 {
   return *(m_data + m_size - 1);
 }
 
 template <class T>
-T DynamicArray<T>::front()
+T& DynamicArray<T>::front()
 {
   return *m_data;
 }
 
 template <class T>
-T DynamicArray<T>::at(int index)
+T& DynamicArray<T>::at(int index)
 {
   if(index >= m_size || index < 0)
     throw std::out_of_range("Trying to access out of range");
   return *(m_data + index);
+}
+
+template <class T>
+T& DynamicArray<T>::operator[](int index)
+{
+  return at(index);
 }
 
 template <class T>

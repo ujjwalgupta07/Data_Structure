@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['pop',['pop',['../classDynamicArray.html#a5e8662ba7b6f1270a1b37828fb9108d3',1,'DynamicArray']]],
-  ['push_5fback',['push_back',['../classDynamicArray.html#a8405207fbc20fc8ec245b62253e02f8a',1,'DynamicArray']]]
+  ['operator_5b_5d',['operator[]',['../classDynamicArray.html#ac409cee6ae68e0cff29b9b597e1a08c2',1,'DynamicArray']]]
 ];

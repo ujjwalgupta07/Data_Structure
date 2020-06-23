@@ -24,8 +24,11 @@ int main()
   cout << "The popped value: " << testArray.pop() << endl;
   cout << "The size of array atter pop: " << testArray.size() << endl;
 
+  testArray.at(0) = "Test";
   cout << "The last element of the array: " << testArray.back() << endl;
   cout << "The first element of the array: " << testArray.front() << endl;
+  testArray.front() = "Again";
+  testArray.back() = "Last";
   
   for(int i = 0; i < testArray.size(); i++)
     cout << testArray.at(i) << " ";
@@ -47,6 +50,8 @@ int main()
   cout << "Removing an element II:" << testArray.remove("II") << endl;
   cout << "Array contains TT: " << testArray.contains("TT") << endl;
   cout << "Element at index 3: " << testArray.at(3) << endl;
+  cout << "Element at index 3 by []: " << testArray[3] << endl;
+  // cout << "Element at index 23 by []: " << testArray[23] << endl;
   // cout << "Element at index 13: " << testArray.at(13) << endl;
   // cout << "Removed element at 12 index: " << testArray.removeAt(12) << endl;
   for(int i = 0; i < testArray.size(); i++)
